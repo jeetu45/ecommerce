@@ -1,0 +1,179 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '@angular/cli' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData @angular/cli
+8 silly fetchNamedPackageData @angular/cli
+9 silly mapToRegistry name @angular/cli
+10 silly mapToRegistry scope (from package name) @angular
+11 verbose mapToRegistry no registry URL found in name for scope @angular
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: '@angular/cli',
+14 silly mapToRegistry   scope: '@angular',
+14 silly mapToRegistry   escapedName: '@angular%2fcli',
+14 silly mapToRegistry   name: '@angular/cli',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+16 verbose request uri https://registry.npmjs.org/@angular%2fcli
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 9:56:49 AM
+19 verbose request id 80fda9257f474fd2
+20 verbose etag W/"59b31c17-2bfca"
+21 verbose lastModified Fri, 08 Sep 2017 22:39:19 GMT
+22 http request GET https://registry.npmjs.org/@angular%2fcli
+23 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+24 info attempt registry request try #2 at 9:57:00 AM
+25 verbose etag W/"59b31c17-2bfca"
+26 verbose lastModified Fri, 08 Sep 2017 22:39:19 GMT
+27 http request GET https://registry.npmjs.org/@angular%2fcli
+28 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+29 info attempt registry request try #3 at 9:58:00 AM
+30 verbose etag W/"59b31c17-2bfca"
+31 verbose lastModified Fri, 08 Sep 2017 22:39:19 GMT
+32 http request GET https://registry.npmjs.org/@angular%2fcli
+33 silly get cb [ 304, undefined ]
+34 verbose etag https://registry.npmjs.org/@angular%2fcli from cache
+35 verbose get saving @angular/cli to C:\Users\NANOIT\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcli\.cache.json
+36 verbose correctMkdir C:\Users\NANOIT\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+37 silly install normalizeTree
+38 silly loadCurrentTree Finishing
+39 silly loadIdealTree Starting
+40 silly install loadIdealTree
+41 silly cloneCurrentTree Starting
+42 silly install cloneCurrentTreeToIdealTree
+43 silly cloneCurrentTree Finishing
+44 silly loadShrinkwrap Starting
+45 silly install loadShrinkwrap
+46 silly loadShrinkwrap Finishing
+47 silly loadAllDepsIntoIdealTree Starting
+48 silly install loadAllDepsIntoIdealTree
+49 silly resolveWithNewModule @angular/cli@1.4.1 checking installable status
+50 silly cache add args [ '@angular/cli', null ]
+51 verbose cache add spec @angular/cli
+52 silly cache add parsed spec Result {
+52 silly cache add   raw: '@angular/cli',
+52 silly cache add   scope: '@angular',
+52 silly cache add   escapedName: '@angular%2fcli',
+52 silly cache add   name: '@angular/cli',
+52 silly cache add   rawSpec: '',
+52 silly cache add   spec: 'latest',
+52 silly cache add   type: 'tag' }
+53 silly addNamed @angular/cli@latest
+54 verbose addNamed "latest" is being treated as a dist-tag for @angular/cli
+55 info addNameTag [ '@angular/cli', 'latest' ]
+56 silly mapToRegistry name @angular/cli
+57 silly mapToRegistry scope (from package name) @angular
+58 verbose mapToRegistry no registry URL found in name for scope @angular
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry data Result {
+61 silly mapToRegistry   raw: '@angular/cli',
+61 silly mapToRegistry   scope: '@angular',
+61 silly mapToRegistry   escapedName: '@angular%2fcli',
+61 silly mapToRegistry   name: '@angular/cli',
+61 silly mapToRegistry   rawSpec: '',
+61 silly mapToRegistry   spec: 'latest',
+61 silly mapToRegistry   type: 'tag' }
+62 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+63 verbose addNameTag registry:https://registry.npmjs.org/@angular%2fcli not in flight; fetching
+64 verbose request uri https://registry.npmjs.org/@angular%2fcli
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 9:58:21 AM
+67 verbose etag W/"59b31c17-2bfca"
+68 verbose lastModified Fri, 08 Sep 2017 22:39:19 GMT
+69 http request GET https://registry.npmjs.org/@angular%2fcli
+70 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+71 info attempt registry request try #2 at 9:58:31 AM
+72 verbose etag W/"59b31c17-2bfca"
+73 verbose lastModified Fri, 08 Sep 2017 22:39:19 GMT
+74 http request GET https://registry.npmjs.org/@angular%2fcli
+75 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+76 info attempt registry request try #3 at 9:59:31 AM
+77 verbose etag W/"59b31c17-2bfca"
+78 verbose lastModified Fri, 08 Sep 2017 22:39:19 GMT
+79 http request GET https://registry.npmjs.org/@angular%2fcli
+80 silly get cb [ 304, undefined ]
+81 verbose etag https://registry.npmjs.org/@angular%2fcli from cache
+82 verbose get saving @angular/cli to C:\Users\NANOIT\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcli\.cache.json
+83 verbose correctMkdir C:\Users\NANOIT\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+84 silly addNameTag next cb for @angular/cli with tag latest
+85 silly addNamed @angular/cli@1.4.1
+86 verbose addNamed "1.4.1" is a plain semver version for @angular/cli
+87 silly mapToRegistry name @angular/cli
+88 silly mapToRegistry scope (from package name) @angular
+89 verbose mapToRegistry no registry URL found in name for scope @angular
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry data Result {
+92 silly mapToRegistry   raw: '@angular/cli',
+92 silly mapToRegistry   scope: '@angular',
+92 silly mapToRegistry   escapedName: '@angular%2fcli',
+92 silly mapToRegistry   name: '@angular/cli',
+92 silly mapToRegistry   rawSpec: '',
+92 silly mapToRegistry   spec: 'latest',
+92 silly mapToRegistry   type: 'tag' }
+93 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+94 verbose addRemoteTarball https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz not in flight; adding
+95 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz',
+95 verbose addRemoteTarball   '3999b93385c87b7c8d1511131c21280ba0e2cf12' ]
+96 info retry fetch attempt 1 at 9:59:32 AM
+97 info attempt registry request try #1 at 9:59:32 AM
+98 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz
+99 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+100 info attempt registry request try #2 at 9:59:42 AM
+101 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz
+102 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+103 info attempt registry request try #3 at 10:00:42 AM
+104 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz
+105 error fetch failed https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz
+106 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+107 info retry fetch attempt 2 at 10:00:52 AM
+108 info attempt registry request try #1 at 10:00:52 AM
+109 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz
+110 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+111 info attempt registry request try #2 at 10:01:02 AM
+112 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz
+113 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+114 info attempt registry request try #3 at 10:02:02 AM
+115 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz
+116 error fetch failed https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz
+117 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+118 info retry fetch attempt 3 at 10:03:02 AM
+119 info attempt registry request try #1 at 10:03:02 AM
+120 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz
+121 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+122 info attempt registry request try #2 at 10:03:12 AM
+123 http fetch GET https://registry.npmjs.org/@angular/cli/-/cli-1.4.1.tgz
+124 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+125 verbose stack Error: kill ENOSYS
+125 verbose stack     at exports._errnoException (util.js:1022:11)
+125 verbose stack     at process.kill (internal/process.js:172:13)
+125 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+125 verbose stack     at emitNone (events.js:91:20)
+125 verbose stack     at process.emit (events.js:185:7)
+125 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+125 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+125 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+126 verbose cwd I:\xampp\htdocs\socialnetwork
+127 error Windows_NT 6.1.7601
+128 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "@angular/cli"
+129 error node v6.9.5
+130 error npm  v3.10.10
+131 error code ENOSYS
+132 error errno ENOSYS
+133 error syscall kill
+134 error kill ENOSYS
+135 error If you need help, you may report this error at:
+135 error     <https://github.com/npm/npm/issues>
+136 verbose exit [ 1, true ]
